@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.counter {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(6, 74, 80);
+  font-size: 40px;
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.btn {
+  background-color: rgb(3, 33, 19);
+  color: wheat;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 20px;
+  justify-content: space-between;
+  display: flexbox;
+}
